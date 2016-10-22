@@ -1,0 +1,239 @@
+body {
+    width: 100%;
+    height: auto;
+    font-family: Century Gothic, Futura, Verdana, sans-serif;
+}
+
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#container {
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+}
+
+
+/*??*/
+
+#info {
+    transition: 0.5s;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 18pt;
+    width: 520px;
+    height: 60px;
+}
+
+#gamedata {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    width: 200px;
+    height: auto;
+}
+
+.choice {
+	font-family: Century Gothic, Futura, Verdana, sans-serif;
+	position: absolute;
+	left: 120px;
+	margin: 30px 0;
+	width: 100px;
+	height: 40px;
+	border-radius: 0 30px 30px 0px;
+	background-color: black;
+	color: white;
+	outline: none;
+	font-size: 12pt;
+}
+.pos1 {
+	top: 140px;
+}
+.pos2 {
+	top: 260px;
+}
+.pos3 {
+	top: 380px;
+}
+
+#overview {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width: 200px;
+    height: auto;
+}
+
+#tip {
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#pic {
+    transition: 0.5s;
+    border: gray solid 2px;
+    width: 200px;
+    height: 200px;
+    /*background: url("../pic/Sicily.jpg");*/
+    background-size: contain;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+#puzzle {
+    position: relative;
+    margin: 0 auto;
+    width: 360px;
+    height: 360px;
+    background-repeat: no-repeat;
+    /*background-position: -85px -85px;*/
+    /*font-size: 0;*/
+    /*Why?*/
+}
+
+.SubImg {
+    /*background: url("../pic/Sicily.jpg");*/
+    position: absolute;
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    border: gray solid 1.5px;
+    transition: 0.3s;
+}
+
+.SubImg:hover {
+    cursor: pointer;
+    border: yellow solid 2px;
+    transform: scale(1.05, 1.05);
+    z-index: 1;
+}
+
+#control {
+    display: block;
+    margin: 30px auto;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    font-size: 18pt;
+    letter-spacing: 1.4pt;
+}
+
+#gamedata {
+    border: lightblue solid 3px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#movetime,
+#gametime {
+    text-align: center;
+}
+
+.background1 {
+	background: url("../pic/panda.jpg");
+}
+.background2 {
+	background: url("../pic/Sicily.jpg");
+}
+.background3 {
+	background: url("../pic/kazusa.bmp");
+}
+/*-----------------------------*/
+
+.col0 {
+    left: 0;
+}
+
+.col1 {
+    left: 90px;
+}
+
+.col2 {
+    left: 180px;
+}
+
+.col3 {
+    left: 270px;
+}
+
+.row0 {
+    top: 0;
+}
+
+.row1 {
+    top: 90px;
+}
+
+.row2 {
+    top: 180px;
+}
+
+.row3 {
+    top: 270px;
+}
+
+
+/*-----------------------------*/
+
+.Img-col0 {
+    background-position-x: 0;
+}
+
+.Img-col1 {
+    background-position-x: -90px;
+}
+
+.Img-col2 {
+    background-position-x: -180px;
+}
+
+.Img-col3 {
+    background-position-x: -270px;
+}
+
+.Img-row0 {
+    background-position-y: 0;
+}
+
+.Img-row1 {
+    background-position-y: -90px;
+}
+
+.Img-row2 {
+    background-position-y: -180px;
+}
+
+.Img-row3 {
+    background-position-y: -270px;
+}
+
+.warning {
+    border: red solid 2px !important;
+}
+
+
+/*-----------------------------*/
+
+
+/*
+修饰那两个id以及处理游戏结束的提示
+可用disorder作为难度值提示？ think it over
+*/
