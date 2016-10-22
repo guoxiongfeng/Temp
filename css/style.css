@@ -36,31 +36,35 @@ button:hover {
     position: absolute;
     right: 0;
     bottom: 10%;
-    width: 200px;
+    width: 230px;
     height: auto;
+    font-size: 14pt;
 }
 
 .choice {
-	font-family: Century Gothic, Futura, Verdana, sans-serif;
-	position: absolute;
-	left: 120px;
-	margin: 30px 0;
-	width: 100px;
-	height: 40px;
-	border-radius: 0 30px 30px 0px;
-	background-color: black;
-	color: white;
-	outline: none;
-	font-size: 12pt;
+    font-family: Century Gothic, Futura, Verdana, sans-serif;
+    position: absolute;
+    left: 120px;
+    margin: 30px 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 0 30px 30px 0px;
+    background-color: black;
+    color: white;
+    outline: none;
+    font-size: 12pt;
 }
+
 .pos1 {
-	top: 140px;
+    top: 140px;
 }
+
 .pos2 {
-	top: 260px;
+    top: 260px;
 }
+
 .pos3 {
-	top: 380px;
+    top: 380px;
 }
 
 #overview {
@@ -79,6 +83,7 @@ button:hover {
     border-radius: 8px;
     outline: none;
     margin-bottom: 20px;
+    font-size: 15pt;
 }
 
 #pic {
@@ -86,7 +91,6 @@ button:hover {
     border: gray solid 2px;
     width: 200px;
     height: 200px;
-    /*background: url("../pic/Sicily.jpg");*/
     background-size: contain;
 }
 
@@ -100,13 +104,9 @@ button:hover {
     width: 360px;
     height: 360px;
     background-repeat: no-repeat;
-    /*background-position: -85px -85px;*/
-    /*font-size: 0;*/
-    /*Why?*/
 }
 
 .SubImg {
-    /*background: url("../pic/Sicily.jpg");*/
     position: absolute;
     box-sizing: border-box;
     width: 90px;
@@ -148,14 +148,18 @@ button:hover {
 }
 
 .background1 {
-	background: url("../pic/panda.jpg");
+    background: url("../pic/panda.jpg");
 }
+
 .background2 {
-	background: url("../pic/Sicily.jpg");
+    background: url("../pic/Sicily.jpg");
 }
+
 .background3 {
-	background: url("../pic/kazusa.bmp");
+    background: url("../pic/kazusa.bmp");
 }
+
+
 /*-----------------------------*/
 
 .col0 {
@@ -229,11 +233,4 @@ button:hover {
     border: red solid 2px !important;
 }
 
-
 /*-----------------------------*/
-
-
-/*
-修饰那两个id以及处理游戏结束的提示
-可用disorder作为难度值提示？ think it over
-*/
